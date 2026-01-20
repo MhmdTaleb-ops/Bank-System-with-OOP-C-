@@ -1,6 +1,8 @@
 # Bank-System-with-OOP-C-
 
 Bank Management System (C++ | OOP)
+
+
 📌 وصف المشروع
 
 مشروع نظام بنك تم تطويره باستخدام لغة C++ بالاعتماد على مبادئ البرمجة كائنية التوجه (OOP)، ويُعد هذا المشروع مرحلة مهمة في رحلة التأسيس البرمجي، حيث تم فيه تطبيق المفاهيم والأساليب الأساسية لـ OOP بشكل عملي ومنظم.
@@ -99,4 +101,27 @@ Clean Code (كود نظيف ومقروء)
 
 - هذا المشروع بمثابة مراجعة جميع ما سبق من الكورسات وترسيخيها وتنظيمها تحت مظلة مشروع واحد.
 
-شكرا للدكتور محمد ابو هدهود ف له جزيل الشكر والتقدير.
+**الهيــكلية الــعامة للــمـــــشـــروع**
+
+Bank_System/
+├── Core/                 # Business Logic & Data Models
+│   ├── clsBankClient.h   # Bank client entity and operations
+│   ├── clsCurrency.h     # Currency and exchange logic
+│   └── clsUser.h         # System users and permissions
+│
+├── Lib/                  # Reusable Utility Libraries
+│   ├── clsDate.h         # Date and time handling
+│   ├── clsInputValidate.h# Input validation utilities
+│   ├── clsString.h       # String manipulation helpers
+│   └── clsScreen.h       # Base screen utilities
+│
+├── Screens/              # User Interface Layer
+│   ├── clsMainScreen.h   # Main system menu
+│   ├── Client/           # Client management screens
+│   ├── Currencies/       # Currency exchange screens
+│   └── User/             # User & login management screens
+│
+├── Global.h              # System-wide global definitions
+└── Main.cpp              # Application entry point
+
+
