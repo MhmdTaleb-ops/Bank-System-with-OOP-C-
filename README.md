@@ -103,6 +103,7 @@ Clean Code (كود نظيف ومقروء)
 
 **الهيــكلية الــعامة للــمـــــشـــروع**
 
+```
 Bank_System/
 ├── Core/                 # Business Logic & Data Models
 │   ├── clsBankClient.h   # Bank client entity and operations
